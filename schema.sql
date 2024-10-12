@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS posts (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    spentmoney FLOAT NOT NULL,
+    cause TEXT NOT NULL,
+    author TEXT NOT NULL,
+    monthc INTEGER NOT NULL,
+    yearc INTEGER NOT NULL
+);
